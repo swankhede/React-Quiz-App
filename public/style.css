@@ -1,0 +1,78 @@
+html {
+    font-size: 20px;
+}
+
+.vertical-center {
+    position: relative;
+    top: 5vh;
+}
+
+
+.btn {
+    background-color: #d5dfee;
+    padding: 20px;
+    margin: 1%;
+
+    width: 100%;
+}
+
+.btn:hover {
+    background: linear-gradient(rgb(42, 42, 238), rgb(98, 98, 218));
+    color: white;
+}
+
+.prev-btn,
+.next-btn {
+    border-radius: 20px;
+    color: white;
+    width: 200px;
+    padding: 6px;
+    background: none;
+    color: rgb(50, 50, 243);
+    font-weight: bolder;
+
+}
+
+
+.prev-btn {
+    float: left;
+}
+
+
+.next-btn {
+
+    float: right;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+    background-color: rgb(37, 37, 219);
+
+
+
+
+}
+
+
+
+.fa-arrow-right {
+    position: relative;
+    left: 20px;
+}
+
+.fa-arrow-left {
+    position: relative;
+    right: 20px;
+}
+
+.text-warning {
+    font-weight: bolder;
+}
+
+.bg-success {
+    background: linear-gradient(rgb(54, 180, 121), rgb(22, 150, 90)) !important;
+}
+
+.bg-danger {
+    background: linear-gradient(rgb(226, 46, 100), rgb(173, 34, 80)) !important;
+}
